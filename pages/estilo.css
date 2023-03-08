@@ -1,0 +1,74 @@
+body{ margin: 0;
+    padding: 0;
+    margin-top: 0;
+background-image: ;}
+
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(116, 112, 150, 0.445);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 10px -5px rgb(0 0 0 / 30%);
+    border: solid 1px  rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 40px;
+    }
+    
+table, th, td {
+    border: none;
+    }
+    
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+th, td{
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    }
+    
+th{
+    font-weight: bold;
+    }
+    
+    
+tr:nth-child(even) {
+    background-color: #DCEBE6;
+    }
+    
+tr:hover:nth-child(1n + 2) {
+    background-color: #085F63;
+    color: #fff;
+    }
+
+.fonte{
+    border: #085F63;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}    
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; 
+}
+
+.myButton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.myButton:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
